@@ -1,0 +1,15 @@
+BEGINNER'S DATA SHEET:
+Q1. Finding x in given array.
+Java calls it boolean instead of bool
+ boolean flag=false;
+        int index=0;
+        int size=arr.length;
+        for(int i=0;i<size;i++){
+            if(arr[i]==x){
+                flag=true;
+                index=i;
+                break;
+            }
+        }
+        return index;
+Q2:
